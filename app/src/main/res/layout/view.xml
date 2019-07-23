@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+android:background="#efefef"
+    android:layout_marginBottom="12dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/task"
+          android:text="TASK"
+          android:textColor="#212121"
+          android:textSize="30sp"
+          android:layout_marginTop="10dp"
+          />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATE"
+            android:textColor="#d50000"
+            android:id="@+id/date"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/done"
+            android:text="DONE"
+            android:layout_marginLeft="130dp"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIME"
+        android:textColor="#d50000"
+        android:id="@+id/time"
+        android:layout_marginLeft="5dp"
+        />
+
+</LinearLayout>
