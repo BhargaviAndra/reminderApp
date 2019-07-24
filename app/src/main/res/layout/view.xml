@@ -10,17 +10,17 @@ android:background="#efefef"
     android:orientation="vertical"
     android:padding="8dp"
     >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/task"
+        android:text="TEXT"
+        android:textColor="#212121"
+        android:layout_marginTop="10dp"
+        android:autoSizeTextType="uniform"
+        />
 
 
-      <TextView
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:id="@+id/task"
-          android:text="TASK"
-          android:textColor="#212121"
-          android:textSize="30sp"
-          android:layout_marginTop="10dp"
-          />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="35dp"
@@ -38,7 +38,7 @@ android:background="#efefef"
             android:layout_height="wrap_content"
             android:id="@+id/done"
             android:text="DONE"
-            android:layout_marginLeft="130dp"
+            android:layout_marginLeft="140dp"
             android:textAlignment="center"/>
 
 
